@@ -1,0 +1,91 @@
+html {
+     background-color: #181a1b;
+}
+
+body {
+     margin: 0;
+}
+
+#title {
+     font-size: 55px;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     color: aliceblue;
+     text-align: center;
+     box-shadow:  0 0px 30px rgb(49, 49, 49);
+     z-index: 2;
+
+}
+
+#party {
+     background: rgb(51,54,56);
+     background: linear-gradient(16deg, rgba(51,54,56,1) 10%, rgba(34,37,38,1) 35%, rgba(36,39,41,1) 45%, rgba(40,44,46,1) 71%, rgba(30,32,33,1) 93%);
+}
+
+#interactive {
+     text-align: center;
+     padding-top: 20px;
+     padding-bottom: 10px;
+}
+
+.bts, input {
+     position: relative;
+     border-radius: 8%;     
+}
+
+#search {
+     background-color: rgb(51,54,56);
+}
+
+#search:hover {
+     border: inset;
+     border-width: 2.5px;
+     border-color: tomato;
+}
+
+#remove:hover {
+     border: inset;
+     border-width: 2px;
+     border-color: aliceblue;
+}
+
+#remove {
+     background-color:tomato;
+}
+
+.bts {
+     height: 34px;
+     width: 125px; 
+     top: 50%;
+     font-size: 14px;
+     text-shadow: #000000 0 0 5px;
+     color: aliceblue;
+}
+
+input {
+     background-color: rgb(51,54,56);
+     height: 25px;
+     line-height: 25px;
+     width: 130px;
+     font-size: 17px;
+     text-align: center;
+     top: 58%;
+     color: tomato;
+     font-weight: 700;
+     text-shadow: #000000 0 0 2px;
+}
+
+#result {
+     position: absolute;
+}
+
+#result div {
+     position: relative;
+     float: left;
+     padding-left: 15px;
+}
+
+img {
+     max-height: 600px;
+     max-width: 600px;
+}
